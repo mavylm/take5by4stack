@@ -16,20 +16,24 @@ An e-Commerce website for Educational Products
 - Scroll-to-top Button
 - Footer
 
+
 **Home Page**
 - Search (static)
 - Image carousel
 - About Us - Read more
 - Featured Products (static)
 
+
 **About Us Page**
 - Introduction of our team
 - Include individual snippets about ourselves
+
 
 **Products Page**
 - Products Gallery that shows Name and Price
 - Dropdown bar to select a category
 - Optional: Individual product page
+
 
 **Add Products Page**
 - Add product to product page
