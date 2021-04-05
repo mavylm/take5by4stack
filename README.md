@@ -8,31 +8,29 @@ An e-Commerce website for Education Products
     • Irfan - irfan300791@gmail.com
 
 # Minimum Viable Product Criteria
-
 All pages
-	•	Navigation Bar
-	    ◦	Functional: Home, About, Products, Add Products
-	    ◦	Optional: Login
-	    ◦	Static: Search, Cart
-
-	•	Scroll-to-top Button
-	•	Footer
+    • Navigation Bar
+	◦ Functional: Home, About, Products, Add Products
+	◦ Optional: Login
+	◦ Static: Search, Cart
+    • Scroll-to-top Button
+    • Footer
 
 Home Page
-	•	Search (static)
-	•	Image carousel
-	•	About Us - Read more
-	•	Featured Products (static)
+    • Search (static)
+    • Image carousel
+    • About Us - Read more
+    • Featured Products (static)
 
 About Us Page
-	•	Introduction of our team
-	•	Include individual snippets about ourselves
+    • Introduction of our team
+    • Include individual snippets about ourselves
 
 Products Page
-	•	Products Gallery that shows Name and Price
-	•	Dropdown bar to select a category
-	•	Optional: Individual product page
+    • Products Gallery that shows Name and Price
+    • Dropdown bar to select a category
+    • Optional: Individual product page
 
 Add Products Page
-	•	Add product to product page
-	•	Past products (static)
+    • Add product to product page
+    • Past products (static)
