@@ -1,5 +1,5 @@
 # take5by4stack
-An e-Commerce website for Education Products
+An e-Commerce website for Educational Products
 
 ## Team Members
     • Mavis Lim - mavislimhm@gmail.com
