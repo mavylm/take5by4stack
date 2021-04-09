@@ -88,9 +88,11 @@ h4 {
     background-color: #00485e;
     background-position: center;
     background-size: cover;
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .areYouReady {
@@ -99,7 +101,6 @@ h4 {
     font-weight: 700;
     color: #fff;
     display: block;
-    margin-top: 50px;
 }
 
 .take5 {
