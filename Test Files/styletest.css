@@ -2,56 +2,70 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
-body {
-    background-color: #FAFAFA;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    size: 16px;
-}
-
-#topBar {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    left: 0px;
-    right: 0px;
-}
-
-#logo {
+* {
+    box-sizing: border-box;
     margin: 0px;
 }
 
-#topNav {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #007EA4;
-    text-decoration: none;
-    margin: 30px;
+body {
+    background-color: #FAFAFA;
+    font-size: 16px;
 }
 
-#topNav a{
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #007EA4;
-    display: inline-block;
-    text-decoration: none;
-    margin: 30px;
+header{
+    display: flex;
 }
 
-#topNav a:hover {
+.logo {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px 20px;
+    font-weight: 700;
+  }
+
+a {
+    text-decoration: none;
+    color: #007EA4;
+}
+
+nav a:hover {
     color: #F8B053;
 }
 
+/* Styling for FontAwesome Icons */
+i.fas {
+     color: #007EA4;
+     font-size: 18px;
+     margin: 0px 5px;
+    }
+
+i.fas:hover {
+    color: #F8B053;
+    }
 
 .addProduct {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    size: 24px;
+    font-size: 14px;
     font-weight: 700;
     color: #007EA4;
     border: 2px solid #007EA4;
     padding: 6px 10px;
     cursor: pointer;
+    display: inline-block;
   }
   
 .addProduct:hover {
@@ -67,6 +81,7 @@ h1, h2, h3, h5, h6 {
 h4 {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
+    margin: 20px 0px;
 }
 
 #mainSearch {
@@ -75,15 +90,13 @@ h4 {
     background-color: #00485e;
     height: 100%;
     width: 100%;
-    left: 0;
-    right: 0;
-    padding: 0px;
     position: absolute;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
-#areYouReady {
+.areYouReady {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -97,6 +110,7 @@ h4 {
 
 #mainSearch .search-container {
     float: none;
+    margin: 0px;
   }
   
   #mainSearch input[type=text] {
@@ -111,6 +125,7 @@ h4 {
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
+    margin-left: 0px;
     background: #007EA4;
     font-size: 17px;
     border: none;
@@ -125,15 +140,3 @@ h4 {
 #mainReviews {
     color: #ffffff;
 }
-
-/* Styling for FontAwesome Icons
-i.fas, i.fab {
-     color: #007EA4;
-     font-size: 18px;
-     margin: 0px 5px;
-    }
-
-i.fas, i.fab:hover {
-        color: #F8B053;
-       }
-*/
