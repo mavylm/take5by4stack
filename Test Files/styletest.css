@@ -1,0 +1,187 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 60px 20px;
+    font-weight: 700;
+  }
+
+a {
+    text-decoration: none;
+    color: #007EA4;
+}
+
+nav a:hover {
+    color: #F8B053;
+}
+
+.addProduct {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #007EA4;
+    border: 2px solid #007EA4;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+  
+.addProduct:hover {
+    background: #007EA4;
+    color: #ffffff;
+  }
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #007EA4;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin: 200px 0px 20px 0px;
+}
+
+/* Styling FA Quotations */
+.fa-quote-left, .fa-quote-right {
+    color: white;
+    padding: 5px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainSearch {
+    background-image: url('img/grad_01.jpg');
+    background-blend-mode: multiply;
+    background-color: #00485e;
+    background-position: center;
+    background-size: cover;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.areYouReady {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.take5 {
+    color: #F8B053;
+}
+
+#mainSearch .search-container {
+    margin: 0px;
+  }
+  
+  #mainSearch input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+  }
+  
+  #mainSearch .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 0px;
+    background: #007EA4;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  #mainSearch .search-container button:hover {
+    background: #F8B053;
+  }
+
+.mainReviews {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #ffffff;
+    width: 40%;
+    align-self: center;
+}
+
+#mainAbout {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.aboutTitle {
+    width: 50%;
+    text-transform: capitalize;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.aboutContent {
+    width: 50%;
+}
+
+.aboutContent a {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #007EA4;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+  
+.aboutContent a:hover {
+    background: #F8B053;
+    color: #007EA4;
+  }
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #007EA4;
+}
