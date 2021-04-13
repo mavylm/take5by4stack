@@ -113,7 +113,7 @@ h4 {
 }
 
 /* Styling Index Page About Us */
-#mainAbout {
+.mainAbout {
     display: flex;
     flex-direction: row;
     padding: 50px;
@@ -147,6 +147,7 @@ h4 {
 .aboutContent a:hover {
     background: #F8B053;
     color: #007EA4;
+    text-decoration: none;
   }
 
   /* Styling Footer */
