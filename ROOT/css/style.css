@@ -9,14 +9,19 @@ body {
     font-size: 16px;
 }
 
-
-a {
+/* Styling Navigation Bar Items */
+.t5nav {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     text-decoration: none;
     color: #007EA4;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 15px;
 }
 
 nav a:hover {
     color: #F8B053;
+    text-decoration: none;
 }
 
 .addProduct {
@@ -25,9 +30,9 @@ nav a:hover {
     font-weight: 700;
     color: #007EA4;
     border: 2px solid #007EA4;
+    border-radius: 5px;
     padding: 6px 10px;
     cursor: pointer;
-    display: inline-block;
     text-align: center;
 }
   
@@ -36,87 +41,78 @@ nav a:hover {
     color: #ffffff;
   }
 
+  /* Styling Headers */
 h1, h2, h3, h5, h6 {
     font-family: 'Raleway', sans-serif;
     color: #007EA4;
 }
 
+/* Styling Image Carousel Reviews Header */
 h4 {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     margin: 200px 0px 20px 0px;
 }
 
-/* Styling FA Quotations */
+/* Styling Image Carousel Reviews FA Quotations */
 .fa-quote-left, .fa-quote-right {
     color: white;
     padding: 5px;
 }
 
-#wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-#mainSearch {
-    background-image: url('img/grad_01.jpg');
-    background-blend-mode: multiply;
-    background-color: #00485e;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
+/* Styling Image Carousel Tagline */
 .areYouReady {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    color: #fff;
-    display: block;
+    color: #ffffff;
+    text-align: center;
 }
 
 .take5 {
     color: #F8B053;
 }
 
-#mainSearch .search-container {
-    margin: 0px;
-  }
-  
-  #mainSearch input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-    width: 50%;
-  }
-  
-  #mainSearch .search-container button {
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    margin-left: 0px;
-    background: #007EA4;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    color: #ffffff;
-  }
-  
-  #mainSearch .search-container button:hover {
-    background: #F8B053;
-  }
+/* Styling Image Carousel Pictures */
+.carousel-inner > .item {
+    height: 90vh;
+    object-fit: contain;
+ }
 
-.mainReviews {
-    color: #ffffff;
-    width: 40%;
-    align-self: center;
+/* Styling Image Carousel Search Box */
+.carousel-inner > .search-sec{
+    padding: 2rem;
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    justify-self: center;
+}
+  
+.search-box {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #007EA4;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
 }
 
+.search-container button {
+    background: #007EA4;
+    border: 1px solid #007EA4;
+    color: #ffffff;
+    font-size: 16px;
+    height: calc(3rem + 2px) !important;
+    padding: 0px 15px;
+}
+
+.search-container button:hover {
+    background: #F8B053;
+    border: 1px solid #F8B053;
+}
+
+/* Styling Index Page About Us */
 #mainAbout {
     display: flex;
     flex-direction: row;
@@ -153,8 +149,16 @@ h4 {
     color: #007EA4;
   }
 
-footer {
-    text-align: center;
-    padding: 50px;
+  /* Styling Footer */
+.footer {
     background-color: #007EA4;
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+.footer-social {
+    background-color: #F8B053;
+    color: #007EA4;
 }
