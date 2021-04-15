@@ -237,8 +237,8 @@ h4 {
     }
     
     .aboutTitle {
-    text-align: left;
-    padding-right: 0px;
+        text-align: left;
+        padding-right: 0px;
     }
 
     .aboutTitle p {
@@ -247,5 +247,13 @@ h4 {
 
     .aboutContent a {
         width: 100%;
+    }
+    
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-subscribe {
+        font-size: 10px;
     }
 }
