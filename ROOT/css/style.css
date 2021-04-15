@@ -150,6 +150,14 @@ h4 {
     text-decoration: none;
   }
 
+.productsCategoryImg {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 600px;
+    border-radius: 4px;
+}
+
 /* All: Footer */
 .footer {
     background-color: #007EA4;
