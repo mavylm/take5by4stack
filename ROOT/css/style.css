@@ -156,6 +156,11 @@ h4 {
     max-width: 500px;
     max-height: 600px;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.productsCategoryImg:hover {
+    opacity: 0.8;
 }
 
 /* All: Footer */
