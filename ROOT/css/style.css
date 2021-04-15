@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 body {
@@ -40,10 +41,19 @@ nav a:hover {
     color: #ffffff;
   }
 
-  /* All: Headers */
+/* All: Headers */
 h1, h2, h3, h5 {
     font-family: 'Raleway', sans-serif;
     color: #007EA4;
+}
+
+.pageHeader {
+    background-color: #007EA4;
+    color: #FFFFFF;
+}
+
+.pageHeader h1 {
+    color: #FFFFFF;
 }
 
 /* Index: Image Carousel Reviews Header */
