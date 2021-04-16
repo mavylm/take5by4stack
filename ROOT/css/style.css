@@ -207,6 +207,20 @@ h4 {
     color: #007EA4;
 }
 
+/* Product Page */
+/* Product Cards */
+.productPageCards a {
+    color: #4a4a4a;
+}
+
+.productPageCards a:hover {
+    color: #007EA4;
+}
+
+.productPageCards img {
+    height: 300px;
+}
+
 /* Mobile */
 .mobile {
     display: none;
