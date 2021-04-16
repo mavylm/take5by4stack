@@ -78,7 +78,8 @@ h4 {
 /* Index: Image Carousel Pictures */
 .carousel-inner > .item {
     height: 90vh;
-    object-fit: contain;
+    object-fit: fill;
+    overflow: hidden;
  }
 
 /* Index: Image Carousel Search Box */
@@ -166,6 +167,66 @@ h4 {
     background-color: #E8F4F8;
 }
 
+/* About Page */
+.companyInfo {
+    font-size: 50px;
+    color: #4A4A4A;
+}
+
+/* Product Page */
+.productPageCards a {
+    color: #4A4A4A;
+}
+
+.productPageCards a:hover {
+    color: #007EA4;
+    text-decoration: none;
+}
+
+/* Add Products */
+.form-photo-upload img{
+    cursor: pointer;
+}
+
+.form-photo-upload img:hover {
+    opacity: 0.7;
+}
+
+.form-control {
+    overflow: scroll;
+}
+
+textarea {
+	resize: none;
+}
+
+.clearB {
+    background-color: #ec5a5a;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.clearB:hover {
+    background-color: #b83737;
+}
+
+.listB {
+    background-color: #007EA4;
+    padding: 10px 30px;
+    color: #F8B053;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.listB:hover {
+    background-color: #F8B053;
+    color: #007EA4;
+}
+
 /* All: Footer */
 .footer {
     background-color: #007EA4;
@@ -213,78 +274,6 @@ h4 {
 
 .footer-social a:hover {
     color: #004d64;
-}
-
-/* Product Page */
-.productPageCards a {
-    color: #4a4a4a;
-}
-
-.productPageCards a:hover {
-    color: #007EA4;
-    text-decoration: none;
-}
-
-.productPageCards img {
-    height: 300px;
-}
-
-/* Add Products */
-.productsCategoryImg {
-    height: auto;
-    width: auto;
-    max-width: 500px;
-    max-height: 600px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.productsCategoryImg:hover {
-    opacity: 0.8;
-}
-
-.formsheader {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.form-photo-upload img{
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.form-photo-upload img:hover {
-    opacity: 0.7;
-}
-
-.clearB {
-    border: none;
-    padding: 10px 30px;
-    border-radius: 4px;
-    font-family: 'Open Sans';
-    font-weight: bold;
-    transition: 0.1s;
-}
-
-.clearB:hover {
-    background-color: lightgray;
-}
-
-.listB {
-    background-color: #007EA4;
-    padding: 10px 30px;
-    color: #F8B053;
-    border-radius: 4px;
-    border: none;
-    font-family: 'Open Sans';
-    font-weight: bold;
-    transition: 0.1s;
-}
-
-.listB:hover {
-    background-color: #F8B053;
-    color: #007EA4;
 }
 
 /* Mobile */
