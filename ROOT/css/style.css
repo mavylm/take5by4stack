@@ -249,10 +249,6 @@ h4 {
     margin: 20px 0;
 }
 
-.mainAbout {
-    height: 750px;
-}
-
 .form-photo-upload img{
     transition: 0.2s;
     cursor: pointer;
