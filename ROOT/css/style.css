@@ -207,6 +207,14 @@ h4 {
     color: #007EA4;
 }
 
+.footer-social a {
+    color: #007EA4;
+}
+
+.footer-social a:hover {
+    color: #004d64;
+}
+
 /* Product Page */
 .productPageCards a {
     color: #4a4a4a;
@@ -214,6 +222,7 @@ h4 {
 
 .productPageCards a:hover {
     color: #007EA4;
+    text-decoration: none;
 }
 
 .productPageCards img {
