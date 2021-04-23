@@ -54,7 +54,7 @@
         </div>
 
         <!-- Add Products Button -->
-        <div class="ml-auto">
+        <div class="ml-auto mr-2">
         <form action="addproducts.html">
           <button class="addProduct">Add Products</button>
         </form>
@@ -94,180 +94,133 @@
         </div>
       </nav>
       <!-- End of Mobile Navigation Bar -->
-    
-      <!-- Start of Image Carousel -->
-      <div class="container-fluid my-0 mx-0 py-0 px-0">
-        <div id="selectedReviews" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators desktop">
-            <li data-target="#selectedReviews" data-slide-to="0" class="active"></li>
-            <li data-target="#selectedReviews" data-slide-to="1"></li>
-            <li data-target="#selectedReviews" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
 
-            <div class="search-sec">
-              
-                <div class="row">
-                  <div class="col-lg-12 mt-5">
-                    <div class="areYouReady">Are you ready to <span class="take5">Take5</span>?</div><br />
-                  </div>
-                </div>
+      <!-- Start of Header Writeup -->
+      <div class="container-fluid p-5">
+          <h1>Educational Products</h1>
+          <p>
+            In Take5, we have a range of products to suit your needs. Our wide range of products spans from children, teenagers and adults. Find your next suitable educational products below.
+          </p>
+      </div>
 
-                <div class="row justify-content-center">
-                  <div class="col-lg-7">
-        
-                      <form class="d-flex search-container">
-                        <input type="text" class="form-control search-box" placeholder="Search for products" name="search">
-                        <button type="button"><i class="fa fa-search"></i></button>
-                      </form>
-                  
-                  </div>
-                </div>   
-            </div>
-            
-
-            <div class="carousel-item item active">
-              <img src="img/Placeholders/ic_edu_01.png" class="d-block w-100" alt="Education">
-              <div class="carousel-caption d-none d-md-block">
-                <h4>Jean Looi, Educator</h4>
-                <p><i class="fas fa-quote-left"></i>I love Take5! Not only does the portable speaker sounds great, the different functions are so useful as well! It's definitely a high quality product and it's so aesthetically pleasing!<i class="fas fa-quote-right"></i></p>
-              </div>
-            </div>
-            <div class="carousel-item item">
-              <img src="img/Placeholders/ic_grad_01.png" class="d-block w-100" alt="Graduation">
-              <div class="carousel-caption d-none d-md-block">
-                <h4>Lilian Balakrishnan, Part-time Student</h4>
-                <p><i class="fas fa-quote-left"></i>Fast and simple transaction! Got my favorite study chair and it was delivered promptly post-payment.<i class="fas fa-quote-right"></i></p>
-              </div>
-            </div>
-            <div class="carousel-item item">
-              <img src="img/Placeholders/ic_books_01.png" class="d-block w-100" alt="Library">
-              <div class="carousel-caption d-none d-md-block">
-                <h4>Dr Joseph, Director | Murdoch University</h4>
-                <p><i class="fas fa-quote-left"></i>Take5 has one of the most useful study materials for educators. My class has provided a very positive feedback ever since I’ve started implementing more materials from this platform.<i class="fas fa-quote-right"></i></p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev desktop" href="#selectedReviews" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next desktop" href="#selectedReviews" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+      <!-- Start of Products -->
+      <div class="container-fluid productPageCards pb-5 pl-5 pr-5">
+      
+      <form class="row justify-content-end px-3">
+        <div class="form-group">
+          <label for="selectCategory"></label>
+          <select class="form-control" id="selectCategory">
+            <option>All Categories</option>
+            <option>E-Books</option>
+            <option>Stationeries</option>
+            <option>Assessment Materials</option>
+            <option>Research Papers</option>
+            <option>Online Courses</option>
+            <option>Miscellanous</option>
+          </select>
         </div>
-
-      </div>
-      <!-- End of Image Carousel -->
-
-      <!-- Start of About Us -->
-      <div class="container-fluid mainAbout mb-5">
-          <div class="aboutTitle">
-              <h1>Why Choose Take5?</h1>
-              <p>Passion, Perseverance, Resourcefulness</p>
-          </div>
-
-          <div class="aboutContent">
-              <p>Founded in 2021 by 4 passionate individuals with a great purpose in improving the lives of people in the education sector, Take5 serves as a zone for everyone to connect and find suitable solutions to enhance academic journeys.<br /><br />
-                  With a fast-paced world with every avenues deemed as competitive, Take5 aims to guide you and provide you a meaningful learning experience, to give you a greater sense of purpose in learning.</p>
-                  
-                  <a href="about.html">Read More</a>
-          </div>
-
-      </div>
-      <!-- End of About Us-->
-
-      <!-- Start of Start Shopping -->
-      <div class="container-fluid lightBlueContainer py-5">
-        <h1 class="text-center">Start Shopping</h1>
-        	<!-- Start of Carousel Wrapper -->
-          <div id="productCategory" class="carousel slide carousel-multi-item m-5" data-ride="carousel">
-
-            <!-- Controls -->
-            <a class="carousel-control-prev desktop" href="#productCategory" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next desktop" href="#productCategory" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-            <!-- End of Controls -->
-            <!-- Start of Indicators -->
-            <ol class="carousel-indicators desktop">
-              <li data-target="#productCategory" data-slide-to="0" class="active"></li>
-              <li data-target="#productCategory" data-slide-to="1"></li>
-            </ol>
-            <!-- End of Indicators-->
-            <!-- Start of Slides -->
-            <div class="carousel-inner justify-content-center" role="listbox">
-              <!-- Start of First slide -->
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/ebooks1.png"
-                          alt="eBooks">
-                      <div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 clearfix d-none d-md-block">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/stationeries1.png"
-                          alt="Stationeries">
-                      <div>
+      </form>
+        <!-- Start of Row -->
+          <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                  <a href="#"><div class="productCard">
+                      <img src="img/Products/products-1-ebooks.jpeg" class="card-img-top" alt="...">
+                      <div class="productInfo text-center">
+                      <b>1-year Kindle Subscription</b>
+                      <p class="productPrice">$29.99</p>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 clearfix d-none d-md-block">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/assessment1.png"
-                          alt="Assessment Materials">
-                      <div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  </div></a>
               </div>
-              <!-- End of First slide-->
-              <!-- Start of Second slide-->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/research1.png"
-                          alt="Research Papers">
-                      <div>
+
+              <div class="col-lg-4 col-sm-6">
+                <a href="#"><div class="productCard">
+                      <img src="img/Products/products-2-ebooks.jpeg" class="card-img-top" alt="...">
+                      <div class="productInfo text-center">
+                      <b>Introduction to Finance</b>
+                      <p class="productPrice">$89.90</p>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 clearfix d-none d-md-block">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/online1.png"
-                          alt="Online Courses">
-                      <div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 clearfix d-none d-md-block">
-                    <div class="card m-2">
-                      <img class="productsCategoryImg" src="./img/productsCategory/misc1.png"
-                          alt="Miscellaneous">
-                      <div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  </div></a>
               </div>
-              <!-- End of Second slide-->
+
+              <div class="col-lg-4 col-sm-6">
+                <a href="#"><div class="productCard">
+                      <img src="img/Products/products-4-stationeries.jpg" class="card-img-top" alt="...">
+                      <div class="productInfo text-center">
+                      <b>[20% OFF] Art Course Starter Pack</b>
+                      <p class="productPrice"><del>$29.99</del> $23.99</p>
+                      </div>
+                  </div></a>
+              </div>
             </div>
-            <!--End of Slides-->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                    <img src="img/Products/products-3-stationeries.jpg" class="card-img-top" alt="...">
+                    <div class="productInfo text-center">
+                      <b>60 Classic Colour Pencils Sketch Set</b>
+                    <p class="productPrice">$32</p>
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                    <img src="img/Products/products-5-assessment.jpeg" class="card-img-top" alt="...">
+                    <div class="productInfo text-center">
+                    <b>Key Stage Two Assessment Papers (Year 2020)</b>
+                    <p class="productPrice">$19.90</p>
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                    <img src="img/Products/products-6-assessment.jpeg" class="card-img-top" alt="...">
+                    <div class="productInfo text-center">
+                    <b>Kindergarten Exam Coloring Book</b>
+                    <p class="productPrice">$29.90</p>
+                    </div>
+                </div></a>
+            </div>
           </div>
-          <!-- End of Carousel Wrapper-->
-      </div>
-      <!-- End of Start Shopping-->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                  <img src="img/Products/products-7-research.jpeg" class="card-img-top" alt="...">
+                  <div class="productInfo text-center">
+                  <b>Consumer Behaviour of Singaporeans (2020 Edition)</b>
+                  <p class="productPrice">$49.90</p>
+                  </div>
+              </div></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                  <img src="img/Products/products-8-online.jpeg" class="card-img-top" alt="...">
+                  <div class="productInfo text-center">
+                  <b>Social Media Marketing (Intermediate Course)</b>
+                  <p class="productPrice">$499.00</p>
+                  </div>
+              </div></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <a href="#"><div class="productCard">
+                  <img src="img/Products/products-9-others.jpeg" class="card-img-top" alt="...">
+                  <div class="productInfo text-center">
+                  <b>[50% OFF] Gaming Chair</b>
+                  <p class="productPrice"><del>$599</del>$299</p>
+                  </div>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      <!-- End of Row -->
+
+    </div>
+      <!-- End of Products-->
 
       <!-- Modal for Contact -->
       <div class="modal fade" id="contactUs" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -307,7 +260,45 @@
           </div>
         </div>
       </div>
-      <!-- End of Modal for Contact -->
+
+      <!-- Modal for Contact -->
+      <div class="modal fade" id="contactUs" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="contactForm">Contact Us</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <!-- Contact Form -->
+                <form>
+
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Please enter your name here"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputComment">Comment</label>
+                        <textarea class="form-control" id="inputComment" rows="3"></textarea>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Start of Desktop Footer (Subscribe) -->
       <div class="container-fluid my-0 mx-0 py-0 px-0 desktop">
@@ -435,7 +426,7 @@
           <!-- End of Copyright/Social Links -->
       </div>
       <!-- End of Mobile Footer -->
-    
+
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
