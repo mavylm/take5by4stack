@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 body {
@@ -347,6 +346,12 @@ textarea {
 
     .aboutContent a {
         width: 100%;
+    }
+
+    /* Add Products */
+    .clearB, .listB {
+        width: 100%;
+        margin-bottom: 5px;
     }
   
 }
