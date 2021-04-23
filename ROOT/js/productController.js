@@ -1,16 +1,14 @@
 // Doing a product web app in product page to display the name, description, imageURL, style, price etc.
 
-const createHTMLList = (name, description, imageURL) =>
-`<div class="col-lg-4">
-<div class="card" style="width: 18rem;">
-    <img src=${imageURL} class="card-img-top"
-        alt="image">
-    <div class="card-body">
-        <h5 class="card-title">${name}</h5>
-        <p class="card-text">${description}</p>
-        <a href="#" class="btn btn-primary">More</a>
-    </div>
-</div>
+const createHTMLList = (imageURL, name, price) =>
+`<div class="col-lg-4 col-sm-6">
+    <a href="#"><div class="productCard">
+        <img src=${imageURL} class="card-img-top">
+        <div class="productInfo text-center">
+        <b>${name}</b>
+        <p class="productPrice">$${price}</p>
+        </div>
+    </div></a>
 </div>
 
 `;
@@ -40,14 +38,14 @@ class ProductsController {
         for (var i=0; i<this._items.length; i++) {
             const item = this._items[i]; // Assign the individual item to the variable
 
-            const productHTML = createHTMLList(item.oName, item.oDescription, item.oImageURL);
+            const productHTML = createHTMLList(item.oImageURL, item.oName, item.oPrice);
 
             productHTMLList.push(productHTML);
         }
 
         // Join all the elements in my productHTMLList into one string, and seperated by a break
         const pHTML = productHTMLList.join('\n');
-        document.querySelector('#row').innerHTML = pHTML;
+        document.querySelector('#productRow').innerHTML = pHTML;
     }
 
 
