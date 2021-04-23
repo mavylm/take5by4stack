@@ -227,6 +227,11 @@ textarea {
     color: #007EA4;
 }
 
+#categoryErrorMsg, #termsErrorMsg {
+    font-size: 12px;
+    color: red;
+}
+
 /* All: Footer */
 .footer {
     background-color: #007EA4;
