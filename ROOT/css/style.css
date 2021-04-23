@@ -47,6 +47,12 @@ h1, h2, h3, h5 {
     color: #007EA4;
 }
 
+h6 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
 
 
 /* Index: Image Carousel Reviews Header */
