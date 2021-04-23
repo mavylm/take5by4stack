@@ -96,39 +96,65 @@
       <!-- End of Mobile Navigation Bar -->
 
       <!-- Start of Add Products Form -->
-      <div class="container-fluid my-3 mainAbout">
-          <div class="row">
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
+      <div class="container-fluid p-5 my-5 d-flex justify-content-center">
+        <div class="row">
+            <div class="col-md-5 d-flex justify-content-end">
+              <form>
+                <div class="form-photo-upload d-flex">
+                  <label for="uploadphoto">
+                    <input type="file" name="uploadphoto" id="uploadphoto" style="display:none;"/>
+                    <img src="./img/Placeholders/Upload.png" class="w-100"/>
+                  </label>
+                </div>
             </div>
-
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
-            </div>
-
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
-            </div>
-
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
-            </div>
-
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
-            </div>
-
-            <div class="col-lg-6 p-3">
-              <h3>INSERT FORM</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda placeat doloremque debitis commodi recusandae ullam. At sequi doloremque repellendus, ipsa, facilis incidunt repudiandae quo, voluptates expedita quos a nesciunt.</p>
-            </div>
-
+            <div class="col-md-5">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="productName">Product Name*</label>
+                  <input type="text" class="form-control" id="productName">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="productPrice">Product Price*</label>
+                  <input type="text" class="form-control" id="productPrice">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="productCategory">Product Category</label>
+                  <select id="productCategory" class="form-control">
+                    <option selected>Pleast Select</option>
+                    <option>eBooks</option>
+                    <option>Stationeries</option>
+                    <option>Assessment Materials</option>
+                    <option>Online Courses</option>
+                    <option>Research Papers</option>
+                    <option>Miscellaneous</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="quantity">Quantity</label>
+                  <select class="custom-select mr-sm-2" id="quantity">
+                    <option selected>Please Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <form class="was-validated">
+                  <div class="col-md-12">
+                    <label for="validationTextarea">Product Description</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Enter description here" rows="5" required></textarea>
+                    </div>
+                    <div class="col-md-12 mt-5 text-right">
+                      <button class="clearB">Clear</button>
+                      <button class="listB">List Product</button>
+                    </div>                   
+                  </div>
+              </div>
+            </form>
           </div>
+
+        </div>
 
       </div>
       <!-- End of Add Products Form -->
@@ -262,10 +288,10 @@
             </div>
             <div class="col-lg-6 text-right">
               <p>
-                <i class="fab fa-instagram px-2"></i>
-                <i class="fab fa-facebook px-2"></i>
-                <i class="fab fa-twitter px-2"></i>
-                <i class="fab fa-pinterest px-2"></i>
+                <a href="#"><i class="fab fa-instagram px-2"></i></a>
+                <a href="#"><i class="fab fa-facebook px-2"></i></a>
+                <a href="#"><i class="fab fa-twitter px-2"></i></a>
+                <a href="#"><i class="fab fa-pinterest px-2"></i></a>
               </p>
             </div>
           </div>
