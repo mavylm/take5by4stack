@@ -8,7 +8,7 @@ function loadData() {
 
     productsControl.addItem('Introduction to Finance','NIL', 'https://i.imgur.com/RdWuRt2.jpg','eBooks','$89.90');
 
-    productsControl.addItem('20% OFF] Art Course Starter Pack','NIL', 'https://i.imgur.com/t8ClSSX.jpg','Stationeries','$29.99');
+    productsControl.addItem('[20% OFF] Art Course Starter Pack','NIL', 'https://i.imgur.com/t8ClSSX.jpg','Stationeries','$29.99');
 
     productsControl.addItem('60 Classic Colour Pencils Sketch Set','NIL', 'https://i.imgur.com/cAc7GRr.jpg','Stationeries','$32.00');
 
