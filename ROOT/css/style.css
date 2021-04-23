@@ -78,7 +78,8 @@ h4 {
 /* Index: Image Carousel Pictures */
 .carousel-inner > .item {
     height: 90vh;
-    object-fit: contain;
+    object-fit: fill;
+    overflow: hidden;
  }
 
 /* Index: Image Carousel Search Box */
@@ -152,7 +153,7 @@ h4 {
     text-decoration: none;
   }
 
-  /* Index: Products Category Carousel */
+/* Index: Products Category Carousel */
 .productsCategoryImg {
     border-radius: 4px;
     cursor: pointer;
@@ -164,6 +165,66 @@ h4 {
 
 .lightBlueContainer {
     background-color: #E8F4F8;
+}
+
+/* About Page */
+.companyInfo {
+    font-size: 50px;
+    color: #4A4A4A;
+}
+
+/* Product Page */
+.productPageCards a {
+    color: #4A4A4A;
+}
+
+.productPageCards a:hover {
+    color: #007EA4;
+    text-decoration: none;
+}
+
+/* Add Products */
+.form-photo-upload img{
+    cursor: pointer;
+}
+
+.form-photo-upload img:hover {
+    opacity: 0.7;
+}
+
+.form-control {
+    overflow: scroll;
+}
+
+textarea {
+	resize: none;
+}
+
+.clearB {
+    background-color: #ec5a5a;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.clearB:hover {
+    background-color: #b83737;
+}
+
+.listB {
+    background-color: #007EA4;
+    padding: 10px 30px;
+    color: #F8B053;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.listB:hover {
+    background-color: #F8B053;
+    color: #007EA4;
 }
 
 /* All: Footer */
@@ -207,6 +268,14 @@ h4 {
     color: #007EA4;
 }
 
+.footer-social a {
+    color: #007EA4;
+}
+
+.footer-social a:hover {
+    color: #004d64;
+}
+
 /* Mobile */
 .mobile {
     display: none;
@@ -225,7 +294,7 @@ h4 {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     /* M.Index: Image Carousel */
