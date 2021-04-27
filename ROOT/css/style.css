@@ -237,7 +237,7 @@ h4 {
     display: inline-flex;
 }
 
-.fa-poo {
+.fa-poo, .fa-palette {
     font-size: 20px;
     color: #007EA4;
     background-color: #83dcf7;
