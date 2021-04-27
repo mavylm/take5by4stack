@@ -96,7 +96,10 @@
       <!-- End of Mobile Navigation Bar -->
 
       <!-- Start of Add Products Form -->
-      <div class="container-fluid p-5 my-5 d-flex justify-content-center">
+      <div class="container-fluid p-5">
+        <h1>Add Products</h1>
+      </div>
+      <div class="container-fluid px-5 mx-5 mb-5 d-flex justify-content-center">
         <div class="row">
             <div class="col-md-5 d-flex justify-content-end">
               <form onsubmit="event.preventDefault(); submitForm();">
@@ -169,25 +172,25 @@
               </button>
             </div>
             <div class="modal-body">
-                <!-- Contact Form -->
-                <form>
+              <!-- Contact Form -->
+              <form>
 
-                    <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Please enter your name here" required></textarea>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="inputEmail">Email</label>
-                      <input type="email" class="form-control" id="inputEmail">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputComment">Comment</label>
-                        <textarea class="form-control" id="inputComment" rows="3"></textarea>
-                    </div>
-                  </form>
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" required></textarea>
+                </div>
+  
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" required>
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+  
+                <div class="form-group">
+                    <label for="inputComment">Comment</label>
+                    <textarea class="form-control" id="inputComment" rows="3" required></textarea>
+                </div>
+              </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
