@@ -208,7 +208,7 @@ h4 {
 
 .social-side {
     color: #4a4a4a;
-    background-color: #eefbff;
+    background-color: #f1fbff;
     font-size: small;
     transform: rotateY(180deg);
     padding: 10px;
@@ -226,28 +226,30 @@ h4 {
     color: #F8B053;
 }
 
-.fa-grin-tongue-squint, .fa-jedi, .fa-wrench, .fa-pepper-hot {
+.fa-wrench, .fa-pepper-hot, .fa-jedi, .fa-swimmer {
     font-size: 15px;
     color: #F8B053;
     background-color: bisque;
+    width: 25px;
+    height: 25px;
+    text-align: center;
     padding: 5px;
     margin-right: 5px;
     border-radius: 5px;
     display: inline-flex;
 }
 
-.fa-poo, .fa-hat-wizard {
+.fa-hat-wizard, .fa-music, .fa-journal-whills, .fa-file-medical {
     font-size: 15px;
     color: #007EA4;
-    background-color: #83dcf7;
+    background-color: #9ee8ff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
     padding: 5px;
     margin-right: 5px;
     border-radius: 5px;
     display: inline-flex;
-}
-
-.fa-linkedin {
-    font-size: 15px;
 }
 
 
