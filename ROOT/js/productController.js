@@ -1,8 +1,8 @@
 // Doing a product web app in product page to display the name, description, imageURL, style, price etc.
 
-const createHTMLList = (imageURL, name, price) =>
+const createHTMLList = (index, imageURL, name, price) =>
 `<div class="col-lg-4 col-sm-6">
-    <a href="#"><div class="productCard">
+    <a id="${index}" href="#" data-toggle="modal" data-target="#productModal"><div class="productCard">
         <img src=${imageURL} class="card-img-top">
         <div class="productInfo text-center">
         <b>${name}</b>
@@ -12,6 +12,16 @@ const createHTMLList = (imageURL, name, price) =>
 </div>
 
 `;
+
+
+function displayProductDetails(item) {
+    document.querySelector('#modalName').innerText = item.oName;
+    document.querySelector('#modalImg').src = item.oImageURL;
+    document.querySelector('#modalStyle').innerText = item.oStyle;
+    document.querySelector('#modalPrice').innerText = item.oPrice;
+    document.querySelector('#modalDesc').innerText = item.oDescription;
+}
+
 
 class ProductsController {
 
@@ -38,7 +48,7 @@ class ProductsController {
         for (var i=0; i<this._items.length; i++) {
             const item = this._items[i]; // Assign the individual item to the variable
 
-            const productHTML = createHTMLList(item.oImageURL, item.oName, item.oPrice);
+            const productHTML = createHTMLList(i, item.oImageURL, item.oName, item.oPrice);
 
             productHTMLList.push(productHTML);
         }
@@ -46,6 +56,14 @@ class ProductsController {
         // Join all the elements in my productHTMLList into one string, and seperated by a break
         const pHTML = productHTMLList.join('\n');
         document.querySelector('#productRow').innerHTML = pHTML;
+
+        // addEventListener - click 
+        for (var i=0; i<this._items.length; i++) {
+            const item = this._items[i];
+            document.getElementById(i).addEventListener("click", function () {
+                displayProductDetails(item);
+            });
+        }
     }
 
 

@@ -107,7 +107,7 @@
       <div class="container-fluid productPageCards pb-5 pl-5 pr-5">
       
       <form class="row justify-content-end px-3">
-        <div class="form-group">
+        <div class="form-group categoryBar">
           <label for="selectCategory"></label>
           <select class="form-control" id="selectCategory">
             <option>All Categories</option>
@@ -221,7 +221,29 @@
       <!-- End of Row -->
 
     </div>
-      <!-- End of Products-->
+    <!-- End of Products-->
+
+    <!-- Modal pop-up for each product details -->
+    <div class="modal fade" id="productModal"  tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          <div class="modal-header">
+                <h2 id="modalStyle"></h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                <img id="modalImg" src=""/>
+                <hr>
+                <span id="modalName"></span><br />
+                <b>Price:</b> <span id="modalPrice"></span><br />
+                <b>Description:</b> <span id="modalDesc"></span>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary addCart" data-dismiss="modal">Add to Cart</a>
+                </div>
+            </div>
+      </div>
+    </div>
 
       <!-- Modal for Contact -->
       <div class="modal fade" id="contactUs" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
