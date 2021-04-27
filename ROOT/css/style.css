@@ -437,6 +437,12 @@ textarea {
         width: 100%;
     }
 
+    /* M. About */
+    .memberImg img {
+    width: 100%;
+    height: auto;
+    }
+
     /* M.Add Products */
     .clearB, .listB {
         width: 100%;
@@ -444,3 +450,10 @@ textarea {
     }
   
 }
+
+/* shall we??
+
+@media screen and (max-width: 500px) {
+    
+}
+*/
