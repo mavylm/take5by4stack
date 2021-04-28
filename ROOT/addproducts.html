@@ -96,7 +96,10 @@
       <!-- End of Mobile Navigation Bar -->
 
       <!-- Start of Add Products Form -->
-      <div class="container-fluid p-5 my-5 d-flex justify-content-center">
+      <div class="container-fluid p-5 text-center">
+        <h1>Add Products</h1>
+      </div>
+      <div class="container-fluid px-5 mx-5 mb-5 d-flex justify-content-center">
         <div class="row">
             <div class="col-md-5 d-flex justify-content-end">
               <form onsubmit="event.preventDefault(); submitForm();">
@@ -169,25 +172,25 @@
               </button>
             </div>
             <div class="modal-body">
-                <!-- Contact Form -->
-                <form>
+              <!-- Contact Form -->
+              <form>
 
-                    <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Please enter your name here" required></textarea>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="inputEmail">Email</label>
-                      <input type="email" class="form-control" id="inputEmail">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputComment">Comment</label>
-                        <textarea class="form-control" id="inputComment" rows="3"></textarea>
-                    </div>
-                  </form>
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" required></textarea>
+                </div>
+  
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" required>
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+  
+                <div class="form-group">
+                    <label for="inputComment">Comment</label>
+                    <textarea class="form-control" id="inputComment" rows="3" required></textarea>
+                </div>
+              </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -222,7 +225,7 @@
             </div>
             <!-- End of empty column -->
             <!-- Start of Contact and Location -->
-            <div class="col-lg-2 text-right">
+            <div class="col-lg-2">
               <p>
                 +65 1234 5678
               </p>
@@ -236,9 +239,9 @@
             <!-- End of Contact and Location -->
             
             <!-- Start of Contact Us Footer Links -->
-            <div class="col-lg-2 text-right">
+            <div class="col-lg-2">
               <p>
-                <a href="#">CONTACT US</a>
+                <a href="#" data-toggle="modal" data-target="#contactUs">CONTACT US</a>
               </p>
               <p>
                 <a href="#">ORDERING & PAYMENT</a>
@@ -256,9 +259,9 @@
             <!-- End of Contact Us Footer Links -->
 
             <!-- Start of About Us Footer Links -->
-            <div class="col-lg-2 text-right">
+            <div class="col-lg-2">
               <p>
-                <a href="#">ABOUT US</a>
+                <a href="about.html">ABOUT US</a>
               </p>
               <p>
                 <a href="#">WORK WITH US</a>
@@ -287,10 +290,10 @@
             </div>
             <div class="col-lg-6 text-right">
               <p>
-                <a href="#"><i class="fab fa-instagram px-2"></i></a>
-                <a href="#"><i class="fab fa-facebook px-2"></i></a>
-                <a href="#"><i class="fab fa-twitter px-2"></i></a>
-                <a href="#"><i class="fab fa-pinterest px-2"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram px-2"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook px-2"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter px-2"></i></a>
+                <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest px-2"></i></a>
               </p>
             </div>
           </div>
