@@ -1,11 +1,16 @@
 // Global Variables
 var formList = [];
 
-// Reset form
+// Remove error messages
 function resetError() {
     document.querySelector("#termsErrorMsg").innerHTML = "";
     document.querySelector("#categoryErrorMsg").innerHTML = "";
 }
+
+// Reset form button
+function resetForm() {
+    document.getElementById("addProductForm").reset();
+  }
 
 // Submit form
 function submitForm() {

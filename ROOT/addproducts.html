@@ -102,7 +102,7 @@
       <div class="container-fluid px-5 mb-5 d-flex justify-content-center">
         <div class="row">
             <div class="col-md-5 d-flex justify-content-end">
-              <form onsubmit="event.preventDefault(); submitForm();">
+              <form onsubmit="event.preventDefault(); submitForm();" id="addProductForm">
                 <div class="form-photo-upload d-flex">
                   <label for="uploadphoto">
                     <input type="file" name="uploadphoto" id="uploadphoto" style="display:none;"/>
@@ -148,7 +148,7 @@
                   <div id="termsErrorMsg"></div>
                 </div>
                 <div class="col-md-12 mt-5 text-right">
-                  <button class="clearB">Clear</button>
+                  <input type="button" class="clearB" onclick="resetForm()" value="Clear">
                   <button class="listB">List Product</button>
                 </div>                   
                 </div>
