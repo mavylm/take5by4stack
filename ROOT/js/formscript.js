@@ -24,8 +24,7 @@ function submitForm() {
     checkBoxArray.push(document.querySelector("#agreeTerms").checked);
 
 
-
-    // Validation: Checkbox must have at least one experience checked
+    // Validation: Checkbox must be checked
     // for (var i=0; i<checkBoxArray.length; i++) {
     
     var found = false;
@@ -41,10 +40,12 @@ function submitForm() {
     }
     
     // Before the values are store into the array
-    if (found) {  // found && agree == true
+    if (found) {  // found == true
         addToList(name, price, category, quantity, description, checkBoxArray);
 
         // Modal pop up
+        $('#addedSuccessfully').modal('show');
+        
     }
 
      // Validation: At least one category is selected
@@ -72,6 +73,7 @@ function addToList(name, price, category, quantity, description, checkBoxArray) 
     formList.push(item);
 
     listForm();
+
 }
 
 // To check in console
@@ -79,3 +81,4 @@ function listForm() {
     console.log("Product Info: " + formList.length);
     console.log(formList);
 }
+
