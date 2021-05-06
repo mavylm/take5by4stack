@@ -174,6 +174,15 @@ h4 {
 
 /* About Page */
 
+.teamIntro {
+    padding: 24px;
+}
+
+.teamIntro p {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
 .memberBox {
     perspective: 1000px;
     height: 55vh;
@@ -217,12 +226,12 @@ h4 {
     overflow-y: hidden;
 }
 
-.memberBio a {
+.social-side a {
     color: #007EA4;
     text-decoration: none;
 }
 
-.memberBio a:hover {
+.social-side a:hover {
     color: #F8B053;
 }
 
@@ -331,9 +340,27 @@ textarea {
     background-color: #007EA4;
     color: #FFFFFF;
     font-size: 10px;
+    padding: 48px;
+    margin: 0px;
 }
 
-.subscribe {
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer a:hover {
+    color: #F8B053;
+}
+
+.footer-subscribe {
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 75%;
+}
+
+.subscribeBtn {
     background: #F8B053;
     border: 0px;
     color: #FFFFFF;
@@ -343,28 +370,16 @@ textarea {
     border-radius: 4px;
 }
 
-.subscribe:hover {
+.subscribeBtn:hover {
     background-color: #004d64;
 }
 
-.footer-subscribe {
-    font-size: 12px;
-    color: #FFFFFF;
-}
-
-.footer-link a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-.footer-link a:hover {
-    color: #F8B053;
-}
 
 .footer-social {
     background-color: #F8B053;
     color: #007EA4;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer-social a {
@@ -438,9 +453,46 @@ textarea {
     }
 
     /* M. About */
-    .memberImg img {
+    .teamIntro {
+        padding: 0px;
+        padding-top: 18px;
+    }
+
+    .memberBox {
         width: 100%;
         height: auto;
+    }
+    
+    .memberBoxContent {
+        width: 100%;
+        height: 100%;
+        transition: none;
+        transform-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .memberBox:hover .memberBoxContent {
+        transform: none;
+    }
+    
+    .image-side, .social-side {
+        position: relative;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+    
+    .image-side img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .social-side {
+        color: #4a4a4a;
+        background-color: #FAFAFA;
+        font-size: 15px;
+        transform: none;
+        overflow-y: visible;
     }
 
     /* M.Products */
@@ -453,12 +505,20 @@ textarea {
         width: 100%;
         margin-bottom: 5px;
     }
+
+    /* M.Footer */
+    .footer {
+        padding: 24px;
+    }
+
+    .footer-subscribe {
+        width: 100%;
+    }
+
+    .footer-social p {
+        width: 100%;
+        text-align: center;
+    }
   
 }
 
-/* shall we??
-
-@media screen and (max-width: 500px) {
-    
-}
-*/
