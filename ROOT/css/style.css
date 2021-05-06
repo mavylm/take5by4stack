@@ -175,6 +175,10 @@ h4 {
 /* About Page */
 
 .teamIntro {
+    padding: 24px;
+}
+
+.teamIntro p {
     font-size: 18px;
     color: #4A4A4A;
 }
@@ -449,6 +453,11 @@ textarea {
     }
 
     /* M. About */
+    .teamIntro {
+        padding: 0px;
+        padding-top: 18px;
+    }
+
     .memberBox {
         width: 100%;
         height: auto;
