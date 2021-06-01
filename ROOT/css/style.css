@@ -152,24 +152,35 @@ h4 {
     text-align: center;
 }
   
-.aboutContent a:hover {
+.aboutContent a:hover, .lightBlueContainer  a:hover {
     background: #F8B053;
     color: #007EA4;
     text-decoration: none;
   }
 
-  /* Index: Products Category Carousel */
-.productsCategoryImg {
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.productsCategoryImg:hover {
-    opacity: 0.8;
-}
+  /* Index: Products Category*/
 
 .lightBlueContainer {
     background-color: #E8F4F8;
+}
+
+.lightBlueContainer img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shopAll a  {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #007EA4;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 
 /* About Page */
@@ -449,6 +460,10 @@ textarea {
         }
 
     .aboutContent a {
+        width: 100%;
+    }
+
+    .shopAll a {
         width: 100%;
     }
 
